@@ -23,15 +23,15 @@ public class main {
             /* class를 따로 생성해서 그 class 내에 맡으신 method 작성 부탁드립니다. */
 
             switch(no) {
-                /*case 1: Calsum.calSum(); break;
-                case 2: Calsub.calSub(); break;*/
+                case 1: Calsum.calSum(); break;
+                case 2: Calsub.calSub(); break;
                 case 3: Caldiv.calDiv(); break;
-               /* case 5: Calmod.calMod(); break;
+                case 5: Calmod.calMod(); break;
                 case 6: CalsumtoN.calSumtoN(); break;
                 case 8: CalavgtoN.calAvgtoN(); break;
                 case 9: Calmax.calMax(); break;
                 case 10: Calmin.calMin(); break;
-                case 0: System.out.println("프로그램을 종료합니다."); return;*/
+                case 0: System.out.println("프로그램을 종료합니다."); return;
 
             }
         } while(true);
