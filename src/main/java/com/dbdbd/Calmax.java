@@ -1,7 +1,6 @@
 package com.dbdbd;
 
 import java.util.Scanner;
-
 public class Calmax {
 
     public static void calMax() {
