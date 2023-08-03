@@ -16,6 +16,7 @@ public class main {
             System.out.println("8. 1 ~ n 평균값 구하기");
             System.out.println("9. 최소값");
             System.out.println("0. 최대값");
+            System.out.println("10. 종료");
             int no = sc.nextInt();
 
             /* class명과 method명 대소문자 유의해서 작성 부탁드립니다. */
@@ -29,7 +30,8 @@ public class main {
                 case 6: CalsumtoN.calSumtoN(); break;
                 case 8: CalavgtoN.calAvgtoN(); break;
                 case 9: Calmin.calMin(); break;
-                case 0: Calmax.calMax(); return;
+                case 10: Calmax.calMax(); break;
+                case 0: System.out.println("프로그램을 종료합니다."); return;
 
             }
         } while(true);
