@@ -7,7 +7,7 @@ public class CalavgtoN {
         Scanner sc = new Scanner(System.in);
 
         System.out.println("<8. 1 ~ n 평균값 구하기>");
-        System.out.println("값을 입력해주세요. ");
+        System.out.print("값을 입력해주세요. ");
         int n = Integer.parseInt(sc.nextLine());
 
         int sum = 0;
