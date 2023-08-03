@@ -8,15 +8,15 @@ public class main {
 
         do {
             System.out.println("========== 계 산 기 ==========");
-            System.out.println("1. 더하기");
-            System.out.println("2. 빼기");
-            System.out.println("3. 나누기");
-            System.out.println("5. mod");
-            System.out.println("6. 1 ~ n 더하기");
-            System.out.println("8. 1 ~ n 평균값 구하기");
-            System.out.println("9. 최소값");
-            System.out.println("0. 최대값");
-            System.out.println("10. 종료");
+            System.out.println("<1. 더하기>");
+            System.out.println("<2. 빼기>");
+            System.out.println("<3. 나누기>");
+            System.out.println("<5. mod>");
+            System.out.println("<6. 1 ~ n 더하기>");
+            System.out.println("<8. 1 ~ n 평균값 구하기>");
+            System.out.println("<9. 최대값>");
+            System.out.println("<10. 최소값>");
+            System.out.println("<0. 종료>");
             int no = sc.nextInt();
 
             /* class명과 method명 대소문자 유의해서 작성 부탁드립니다. */

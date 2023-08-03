@@ -5,7 +5,9 @@ import java.util.Scanner;
 public class CalavgtoN {
     public static void calAvgtoN() {
         Scanner sc = new Scanner(System.in);
-        System.out.println("값을 입력해주세요.");
+
+        System.out.println("<8. 1 ~ n 평균값 구하기>");
+        System.out.println("값을 입력해주세요. ");
         int n = Integer.parseInt(sc.nextLine());
 
         int sum = 0;
@@ -16,6 +18,6 @@ public class CalavgtoN {
 
         int ave = sum / n;
 
-        System.out.println(ave);
+        System.out.println("1부터 " + n + "까지의 합의 평균은 " + ave + "입니다.");
     }
     }
