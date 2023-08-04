@@ -13,7 +13,7 @@
   substract 연산자 및 1~N(내가 입력한 값)의 합의 평균값을 구하는 로직을 구성했다.</br>
   Git Repository를 pull받아서 commit 후, push하는 과정을 연습했다.</br>
  </p>
- `
+
 public class CalavgtoN {
     public static void calAvgtoN() {
         Scanner sc = new Scanner(System.in);
@@ -33,8 +33,7 @@ public class CalavgtoN {
         System.out.println("1부터 " + n + "까지의 합의 평균은 " + ave + "입니다.");
     }
     }
-`
- `
+
 public class Calmin {
 
     public static void calMin() {
@@ -52,7 +51,7 @@ public class Calmin {
         System.out.println("값이 더 작은 수는 " + c + "입니다.");
     }
 }
-`
+
  <hr>
 <h3>❤팀원❤ 강한성</h3>
  <p>♦ 맡은 부분 : </br>
