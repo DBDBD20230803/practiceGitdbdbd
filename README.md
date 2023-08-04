@@ -14,7 +14,8 @@
   Git Repository를 pull받아서 commit 후, push하는 과정을 연습했다.</br>
  </p>
 
-       ` Scanner sc = new Scanner(System.in);
+<p>
+        Scanner sc = new Scanner(System.in);
 
         System.out.println("<8. 1 ~ n 평균값 구하기>");
         System.out.println("값을 입력해주세요. ");
@@ -29,9 +30,10 @@
         int ave = sum / n;
 
         System.out.println("1부터 " + n + "까지의 합의 평균은 " + ave + "입니다.");
-        `
+</p>
+       
 
-        `
+<p>
         Scanner sc = new Scanner(System.in);
         System.out.println("<10. 최소값>");
 
@@ -43,7 +45,8 @@
         sc.nextLine();
         int c = Math.min(a, b);
         System.out.println("값이 더 작은 수는 " + c + "입니다.");
-        `
+</p>       
+       
  <hr>
 <h3>❤팀원❤ 강한성</h3>
  <p>♦ 맡은 부분 : </br>
