@@ -16,7 +16,7 @@
 
        
         ♠빼기 연산자♠
-
+        ```
         public static void calSub() {
         Scanner sc = new Scanner(System.in);
         System.out.println("<2. 빼기>");
@@ -26,7 +26,7 @@
         int num2 = Integer.parseInt(sc.nextLine());
         int minus = num1 - num2 ;
         System.out.println( num1 + " - " + num2 + " = " + minus);
-
+```
         ♠1~N까지 합 평균값♠
         Scanner sc = new Scanner(System.in);
 
