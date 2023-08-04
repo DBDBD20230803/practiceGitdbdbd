@@ -15,7 +15,7 @@
  </p>
 
         
-        <p>♠빼기 연산자♠</p>
+        ♠빼기 연산자♠
 
         public static void calSub() {
         Scanner sc = new Scanner(System.in);
@@ -27,7 +27,7 @@
         int minus = num1 - num2 ;
         System.out.println( num1 + " - " + num2 + " = " + minus);
 
-        <p>♠1~N까지 합 평균값♠</p>
+        ♠1~N까지 합 평균값♠
         Scanner sc = new Scanner(System.in);
 
         System.out.println("<8. 1 ~ n 평균값 구하기>");
