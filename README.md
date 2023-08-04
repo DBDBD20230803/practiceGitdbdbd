@@ -13,10 +13,7 @@
   substract 연산자 및 1~N(내가 입력한 값)의 합의 평균값을 구하는 로직을 구성했다.</br>
   Git Repository를 pull받아서 commit 후, push하는 과정을 연습했다.</br>
  </p>
- `package com.dbdbd;
-
-import java.util.Scanner;
-
+ `
 public class CalavgtoN {
     public static void calAvgtoN() {
         Scanner sc = new Scanner(System.in);
@@ -37,10 +34,7 @@ public class CalavgtoN {
     }
     }
 `
- `package com.dbdbd;
-
-import java.util.Scanner;
-
+ `
 public class Calmin {
 
     public static void calMin() {
