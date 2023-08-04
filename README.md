@@ -25,9 +25,10 @@
         System.out.print("두번째 정수를 입력해주세요. ");
         int num2 = Integer.parseInt(sc.nextLine());
         int minus = num1 - num2 ;
-        System.out.println( num1 + " - " + num2 + " = " + minus);
-```
+        System.out.println( num1 + " - " + num2 + " = " + minus);```
+ 
         ♠1~N까지 합 평균값♠
+        ```
         Scanner sc = new Scanner(System.in);
 
         System.out.println("<8. 1 ~ n 평균값 구하기>");
@@ -43,7 +44,7 @@
         int ave = sum / n;
 
         System.out.println("1부터 " + n + "까지의 합의 평균은 " + ave + "입니다.");
-      
+      ```
        
  <hr>
 <h3>❤팀원❤ 강한성</h3>
