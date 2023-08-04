@@ -13,6 +13,52 @@
   substract 연산자 및 1~N(내가 입력한 값)의 합의 평균값을 구하는 로직을 구성했다.</br>
   Git Repository를 pull받아서 commit 후, push하는 과정을 연습했다.</br>
  </p>
+ `package com.dbdbd;
+
+import java.util.Scanner;
+
+public class CalavgtoN {
+    public static void calAvgtoN() {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.println("<8. 1 ~ n 평균값 구하기>");
+        System.out.println("값을 입력해주세요. ");
+        int n = Integer.parseInt(sc.nextLine());
+
+        int sum = 0;
+
+        for (int i = 1; i <= n; i++) {
+            sum += i;
+        }
+
+        int ave = sum / n;
+
+        System.out.println("1부터 " + n + "까지의 합의 평균은 " + ave + "입니다.");
+    }
+    }
+`
+ `package com.dbdbd;
+
+import java.util.Scanner;
+
+public class Calmin {
+
+    public static void calMin() {
+
+        Scanner sc = new Scanner(System.in);
+        System.out.println("<10. 최소값>");
+
+        System.out.print("첫번째 숫자를 입력해주세요. ");
+        int a = sc.nextInt();
+        sc.nextLine();
+        System.out.print("두번째 숫자를 입력해주세요. ");
+        int b = sc.nextInt();
+        sc.nextLine();
+        int c = Math.min(a, b);
+        System.out.println("값이 더 작은 수는 " + c + "입니다.");
+    }
+}
+`
  <hr>
 <h3>❤팀원❤ 강한성</h3>
  <p>♦ 맡은 부분 : </br>
